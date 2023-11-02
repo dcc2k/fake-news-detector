@@ -27,19 +27,22 @@ Fake news detection involves a multi-step process, including data preprocessing,
 
 ## Installation
 
-To run this project, you'll need to have Python 3.x and the following libraries installed:
+This project uses:
 
-- Pandas
-- Numpy
-- Scikit-learn
-- NLTK
-- Word2Vec (for word embeddings)
-- TensorFlow or PyTorch (for deep learning models)
+- numpy
+- scikit-learn
+- matplotlib
 
 You can install these libraries using pip:
 
 ```bash
-pip install pandas numpy scikit-learn nltk gensim tensorflow
+pip install .
+```
+
+You can also install them using poetry:
+
+```bash
+poetry install
 ```
 
 ## Usage
